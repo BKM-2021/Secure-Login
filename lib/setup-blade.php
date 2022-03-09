@@ -1,5 +1,5 @@
 <?php
-include 'BladeOne/lib/BladeOne.php';
+include '../BladeOne/lib/BladeOne.php';
 use eftec\bladeone\BladeOne;
 
 $views = __DIR__ . '/../views';

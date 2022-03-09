@@ -17,4 +17,4 @@ if (isset($_POST['email'])) {
         $msg = "Something went wrong, please try again.";
     }
 }
-echo $blade->run("Log-in", array($msg));
+echo $blade->run("Log-in", array("message" => $msg));

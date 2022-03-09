@@ -15,9 +15,11 @@
             <input type="password" class="form-control" id="Password" placeholder="Enter password" name="Password">
         </div>
     <button type="submit" class="btn btn-primary">Submit</button>
-    @if(!isset($msg))
+    @if(isset($message))
     <div class="msg">
-        <p>{{ $msg }}</p>
+        <p>{{ $message }}</p>
     </div>
     @endif
+</div>
+
 @endsection
